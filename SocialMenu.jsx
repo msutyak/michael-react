@@ -24,7 +24,7 @@ SocialMenu = React.createClass({
 
         return (
             <div>
-                <ul>{ this.props.items.map(function(m, index){
+                <ul className="testblocks">{ this.props.items.map(function(m, index){
         
                     var style = '';
         
@@ -44,25 +44,22 @@ SocialMenu = React.createClass({
                 
 
                 <p>Selected: {this.props.items[this.state.focused]}</p> 
+
+                <ItemDetails item={ this.props.items[this.state.focused] } />
+
             </div>
         );
 
     }
 });
 
-SelectedItem = React.createClass({
+ItemDetails = React.createClass({
+
     render: function() {
-        return(
-            <p>{this.props.item.name}</p>
+
+        return (
+            <div>{this.props.item}</div>
         );
     }
+
 });
-
-// Render the menu component on the page, and pass an array with menu options
-
-/**
-ReactDOM.render(
-    <SocialMenu items={ ['Home', 'Services', 'About', 'Contact us'] } />,
-    document.getElementById('container')
-);
-**/

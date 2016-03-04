@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "react",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msutyak/michael-react"
+  },
   "dependencies": {
     "react-dom": "^0.14.7",
     "react-typewriter": "^0.3.0",

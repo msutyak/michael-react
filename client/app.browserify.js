@@ -1,0 +1,1 @@
+Typist = require('react-typist');

@@ -7,14 +7,30 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/*Skills*/
+
+.center-image {
+	margin:0 auto;
+}
+
+/*Landing*/
+.small_caps {
+	height:40px;
+	margin-top:10px;
+}
+
+ul.icons {
+	margin:0;
+}
+
 
 /*React Example*/
-ul{
+ul.testblocks {
     list-style:none;
     display: inline-block;
 }
 
-ul li{
+ul.testblocks li{
     display: inline-block;
     padding: 10px 20px;
     cursor:pointer;
@@ -24,11 +40,11 @@ ul li{
     transition:0.3s;
 }
 
-ul li:hover{
+ul.testblocks li:hover{
     background-color:#beecea;
 }
 
-ul li.focused{
+ul.testblocks li.focused{
     color:#fff;
     background-color:#41c7c2;
 }
@@ -39,6 +55,50 @@ p{
 }
 
 
+/*Prof Image*/
+img.prof-image:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px 4px #fce58a;
+  animation: glow 1.5s linear infinite alternate;
+  cursor:pointer;
+}
+
+@keyframes glow{
+  to {
+    box-shadow: 0px 0px 15px 10px #fce58a;
+  }
+}
+
+
+/*React transitions*/
+
+.example-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+}
+
+.example-leave {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.example-appear {
+  opacity: 0.01;
+  transition: opacity 1s ease-in;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+}
 
 
 /* Reset */
@@ -2358,11 +2418,12 @@ p{
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			/*width: 100%;*/
 		}
 
 			.image.fit img {
-				width: 100%;
+				/*width: 100%;*/
+				margin:0 auto;
 			}
 
 /* List */
