@@ -4,6 +4,10 @@ SocialMenu = React.createClass({
         return { focused: 0 };
     },
 
+    componentDidMount: function() {
+        MichaelReactStore.addChangeListener(this.state.focused);
+    },
+
     clicked: function(index){
 
         // The click handler will update the state with

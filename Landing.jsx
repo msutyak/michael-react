@@ -96,16 +96,16 @@ Typing = React.createClass({
 		      <div className="TypistExample">
 		        
 		        
-		        <Typist className="TypistExample-header" avgTypingSpeed={15000} startDelay={1000}
-		          onTypingDone={this.next} cursor={{show: false}}>
+		        <Typist className="TypistExample-header" avgTypingSpeed={15000} startDelay={1000} cursor={{show: false}} onTypingDone={this.next}>
 		          { typedtext.map(function(t){
-		          	return <h1 key={t.id}><a href={docs}>{t.text}</a></h1>
+		          	return <h1 className={t.id} key={t.id}><a href={t.link}>{t.text}</a></h1>
 		          }) }
 		        </Typist>
 
+		        {/**
 		        <p>{this.state.textIndex}</p>
 		        <p>{typedtext[this.state.textIndex].text}</p>
-
+				**/}
 		      </div>
 		</div>
 
@@ -117,10 +117,10 @@ Typing = React.createClass({
 
 var typedtext = [
 
-	{id: 'name', text: 'Michael Sutyak'},
-	{id: 'growth', text: 'Growth Marketing'},
-	{id: 'development', text: 'Development'},
-	{id: 'analtyics', text: 'Analytics'},
+	{id: 'name', text: 'Michael Sutyak', link: '#'},
+	{id: 'growth', text: 'Growth Marketing', link: 'http://www.mobilegrowthsage.com'},
+	{id: 'development', text: 'Development', link: 'https://www.github.com/msutyak'},
+	{id: 'analtyics', text: 'Analytics', link: 'https://www.github.com/msutyak'},
 
 ];
 
@@ -135,11 +135,14 @@ Landing = React.createClass({
 					<ProfImage />
 					<Typing />
 
-					<SocialMenu items={ ['Home', 'Services', 'About', 'Contact us']} />
-
+					{/**
+					<SocialMenu onFocusChanged={this.props.onFocusChanged} items={ ['Home', 'Services', 'About', 'Contact us']} />
+					**/}
+					{/**
 					<ul className="actions">
 						<li><a href="#one" className="button scrolly">Discover</a></li>
 					</ul>
+					*/}
 				</div>
 			</section>
     	);

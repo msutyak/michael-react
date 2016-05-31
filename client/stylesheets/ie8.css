@@ -201,7 +201,8 @@
 	}
 
 		#header a {
-			border-bottom-color: #ffffff;
+			/*border-bottom-color: #ffffff;*/
+			border-bottom-color:none;
 		}
 
 			#header a:hover {
