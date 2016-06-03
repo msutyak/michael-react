@@ -2902,6 +2902,7 @@ img.prof-image:hover {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		min-height:699.66px;
 	}
 
 		#header a {

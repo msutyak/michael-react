@@ -98,7 +98,7 @@ Typing = React.createClass({
 		        
 		        <Typist className="TypistExample-header" avgTypingSpeed={15000} startDelay={1000} cursor={{show: false}} onTypingDone={this.next}>
 		          { typedtext.map(function(t){
-		          	return <h1 className={t.id} key={t.id}><a href={t.link}>{t.text}</a></h1>
+		          	return <h1 className={t.id} key={t.id}><a target="_blank" href={t.link}>{t.text}</a></h1>
 		          }) }
 		        </Typist>
 
@@ -118,9 +118,9 @@ Typing = React.createClass({
 var typedtext = [
 
 	{id: 'name', text: 'Michael Sutyak', link: '#'},
-	{id: 'growth', text: 'Growth Marketing', link: 'http://www.mobilegrowthsage.com'},
-	{id: 'development', text: 'Development', link: 'https://www.github.com/msutyak'},
-	{id: 'analtyics', text: 'Analytics', link: 'https://www.github.com/msutyak'},
+	{id: 'growth', text: 'Growth Marketing', link: 'http://mobilegrowthsage.com'},
+	{id: 'development', text: 'Development', link: 'https://github.com/msutyak'},
+	{id: 'analtyics', text: 'Analytics', link: 'https://github.com/msutyak'},
 
 ];
 
@@ -138,11 +138,11 @@ Landing = React.createClass({
 					{/**
 					<SocialMenu onFocusChanged={this.props.onFocusChanged} items={ ['Home', 'Services', 'About', 'Contact us']} />
 					**/}
-					{/**
+					
 					<ul className="actions">
-						<li><a href="#one" className="button scrolly">Discover</a></li>
+						<li><a href="#growth" className="button scrolly">Explore</a></li>
 					</ul>
-					*/}
+					
 				</div>
 			</section>
     	);
