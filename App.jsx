@@ -20,6 +20,7 @@ App = React.createClass({
             <Description />
 	      	<Skills focused={this.state.focused}/>
           */}
+          {this.props.yield}
 	      </div>
 
       );
