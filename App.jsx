@@ -15,6 +15,7 @@ App = React.createClass({
 
 	      <div>
 	      	<Landing onFocusChanged={this.clicked} focused={this.state.focused} />
+          <Growth />
 	      	
             {/*
             <Description />
