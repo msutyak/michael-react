@@ -96,6 +96,12 @@ Typing = React.createClass({
 		      <div className="TypistExample">
 		        
 		        
+		      	<Typist className="TypistExample-header" avgTypingSpeed={15000} startDelay={1000} cursor={{show: false}}>
+		          
+		          	<h1 className="name"><a href="#">Michael Sutyak</a></h1>
+		          
+		        </Typist>
+
 		        <Typist className="TypistExample-header" avgTypingSpeed={15000} startDelay={1000} cursor={{show: false}} onTypingDone={this.next}>
 		          { typedtext.map(function(t){
 		          	return <h1 className={t.id} key={t.id}><a target="_blank" href={t.link}>{t.text}</a></h1>
@@ -117,7 +123,6 @@ Typing = React.createClass({
 
 var typedtext = [
 
-	{id: 'name', text: 'Michael Sutyak', link: '#'},
 	{id: 'growth', text: 'Growth Marketing', link: 'http://mobilegrowthsage.com'},
 	{id: 'development', text: 'Development', link: 'https://github.com/msutyak'},
 	{id: 'analtyics', text: 'Analytics', link: 'https://github.com/msutyak'},
