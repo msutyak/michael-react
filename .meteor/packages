@@ -27,3 +27,4 @@ cosmos:browserify
 kadira:flow-router
 kadira:react-layout
 spiderable
+force-ssl
