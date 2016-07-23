@@ -1,3 +1,10 @@
+FlowRouter.route( '/', {
+  name: 'home',
+  action() {
+    ReactLayout.render( App, { yield: <Home /> } );
+  }
+});
+
 FlowRouter.route('/.well-known/acme-challenge/Q94TSNcmMvq5bNiwyYfeCuOtjRTwl9ALNLK45wWtylo', {
   name: 'Letsencrypt',
   action() {
