@@ -84,8 +84,13 @@ Typing = React.createClass({
 
   next: function() {
     // increment the textIndex by one
-    this.setState({ textIndex: this.state.textIndex + 1});
-    //this.setState({visible: false});
+    //this.setState({ textIndex: this.state.textIndex + 1});
+
+    setTimeout(() => {
+       // increment the textIndex by one
+       this.setState({ textIndex: this.state.textIndex + 1});
+     }, 2000);
+    
   },
 
   render: function() {

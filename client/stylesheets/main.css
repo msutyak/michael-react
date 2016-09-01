@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url("font-awesome.min.css");
 /*
 	Photon by HTML5 UP
@@ -1903,7 +1903,7 @@ img.prof-image:hover {
 		color: #666;
 		font-family: "Open Sans", sans-serif;
 		font-size: 16pt;
-		font-weight: 200;
+		font-weight: 300;
 		line-height: 1.65em;
 	}
 
