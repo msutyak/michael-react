@@ -17,6 +17,7 @@ App = React.createClass({
 	      	<Landing onFocusChanged={this.clicked} focused={this.state.focused} />
           <Growth />
           <MachineLearning />
+          <Algorithms />
 
 	      </div>
 
