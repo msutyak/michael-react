@@ -1,10 +1,11 @@
 FlowRouter.route( '/', {
-  name: 'home',
+  name: '/',
   action() {
-    ReactLayout.render( App, { yield: <Home /> } );
+    
   }
 });
 
+{/*
 FlowRouter.route('/.well-known/acme-challenge/Q94TSNcmMvq5bNiwyYfeCuOtjRTwl9ALNLK45wWtylo', {
   name: 'Letsencrypt',
   action() {
@@ -18,3 +19,4 @@ FlowRouter.route( '/pizza', {
     ReactLayout.render( App, { yield: <Pizza /> } );
   }
 });
+*/}

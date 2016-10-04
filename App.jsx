@@ -16,12 +16,8 @@ App = React.createClass({
 	      <div>
 	      	<Landing onFocusChanged={this.clicked} focused={this.state.focused} />
           <Growth />
-	      	
-            {/*
-            <Description />
-	      	<Skills focused={this.state.focused}/>
-          */}
-          {this.props.yield}
+          <MachineLearning />
+
 	      </div>
 
       );

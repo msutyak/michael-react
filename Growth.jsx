@@ -9,7 +9,7 @@ Growth = React.createClass({
 			<section id="growth" className="main style1 special">
 				<div className="container">
 					<header className="major">
-						<h2>Growth Marketing</h2>
+						<h2>Growth</h2>
 					</header>
 					<p>Mobile Growth Sage (mobilegrowthsage.com) provides modern Silicon Valley growth strategies for scaling your business.</p>
 					<div className="row 150%">
