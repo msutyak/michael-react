@@ -88,12 +88,12 @@ MachineLearning = React.createClass({
 
 var icons = [
 
-    { data: '0', id: 'p0', class: 'icon style1 major fa-code'},
-    { data: '1', id: 'p1', class: 'icon style2 major fa-bolt'},
-    { data: '2', id: 'p2', class: 'icon style3 major fa-camera-retro'},
-    { data: '3', id: 'p3', class: 'icon style4 major fa-cog'},
-    { data: '4', id: 'sochi', class: 'icon style5 major fa-desktop'},
-    { data: '5', id: 'decision_trees', class: 'icon style6 major fa-calendar'},
+    { data: '0', id: 'p0', class: 'icon style1 major fa-ship'},
+    { data: '1', id: 'p1', class: 'icon style2 major fa-home'},
+    { data: '2', id: 'p2', class: 'icon style3 major fa-book'},
+    { data: '3', id: 'p3', class: 'icon style4 major fa-group'},
+    { data: '4', id: 'sochi', class: 'icon style5 major fa-flag'},
+    { data: '5', id: 'decision_trees', class: 'icon style6 major fa-tree'},
 
 ];
 
