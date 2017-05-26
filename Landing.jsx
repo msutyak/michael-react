@@ -100,10 +100,14 @@ Typing = React.createClass({
 		<div>
 		      <div className="TypistExample">
 
+
+		        
 		        <Typist className="TypistExample-header" avgTypingSpeed={15000} startDelay={1000} cursor={{show: false}} onTypingDone={this.next}>
+		        <ul className="text-headers">
 		          { typedtext.map(function(t){
-		          	return <h1 className={t.id} key={t.id}><a href={t.link}>{t.text}</a></h1>
+		          	return <li><h1 className={t.id} key={t.id}><a href={t.link}>{t.text}</a></h1></li>
 		          }) }
+		          </ul>
 		        </Typist>
 
 		        {/**
@@ -120,12 +124,9 @@ Typing = React.createClass({
 
 
 var typedtext = [
-	{id: 'home', text: 'Michael Sutyak', link: 'https://www.michaelsutyak.com'},
+	{id: 'writing', text: 'Writing & Film |', link: 'https://www.michaelsutyak.com'},
 	{id: 'growth', text: 'Growth', link: '#growth'},
-	{id: 'ml', text: 'Machine Learning', link: '#ml'},
-	{id: 'development', text: 'Development', link: 'https://github.com/msutyak'},
-	{id: 'algorithms', text: 'Algorithms', link: 'https://github.com/msutyak'},
-
+	{id: 'product', text: '| Product & Tech', link: '#ml'},
 ];
 
 Landing = React.createClass({
