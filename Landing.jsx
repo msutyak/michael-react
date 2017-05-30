@@ -25,9 +25,12 @@ ProfImage = React.createClass({
 			<span className="major">
 				<img src="/images/profile-pic.png" height="100" onClick={this.onClick} onMouseOver={this.onHover} className="prof-image"/>
 			</span>
+			<div className="header-name">Michael Sutyak</div>
 			
 			<div className="small_caps" key="small_caps">
-			{ this.state.showIcons ? <SocialIcons /> : null }
+			<SocialIcons /> 
+
+			{/** this.state.showIcons ? <SocialIcons /> : null **/}
 			</div>
 			</div>
 
@@ -124,9 +127,9 @@ Typing = React.createClass({
 
 
 var typedtext = [
-	{id: 'writing', text: 'Writing & Film |', link: 'https://www.michaelsutyak.com'},
-	{id: 'growth', text: 'Growth', link: '#growth'},
-	{id: 'product', text: '| Product & Tech', link: '#ml'},
+	{id: 'writing', text: 'Writing & Film', link: '#writing'},
+	{id: 'growth', text: 'Growth Consulting', link: 'https://www.mobilegrowthsage.com'},
+	{id: 'product', text: 'Product & Tech', link: '#ml'},
 ];
 
 Landing = React.createClass({
@@ -145,7 +148,7 @@ Landing = React.createClass({
 					**/}
 					
 					<ul className="actions">
-						<li><a href="#growth" className="button scrolly">Explore</a></li>
+						<li><a href="#writing" className="button scrolly">Explore</a></li>
 					</ul>
 					
 				</div>
