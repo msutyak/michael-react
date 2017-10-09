@@ -1,7 +1,7 @@
 FlowRouter.route( '/', {
   name: '/',
   action() {
-    
+    ReactLayout.render( App, { yield: <Main /> } );
   }
 });
 
@@ -12,6 +12,15 @@ FlowRouter.route('/.well-known/acme-challenge/Q94TSNcmMvq5bNiwyYfeCuOtjRTwl9ALNL
     ReactLayout.render(App, { yield: <Letsencrypt />});
   }
 });
+*/}
+
+FlowRouter.route( '/airbnb', {
+  name: 'airbnb',
+  action() {
+    ReactLayout.render( App, { yield: <Airbnb /> } );
+  }
+});
+
 
 FlowRouter.route( '/pizza', {
   name: 'pizza',
@@ -19,4 +28,3 @@ FlowRouter.route( '/pizza', {
     ReactLayout.render( App, { yield: <Pizza /> } );
   }
 });
-*/}

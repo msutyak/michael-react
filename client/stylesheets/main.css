@@ -6,6 +6,32 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#contact {
+	background-color:#1abc9c;
+}
+
+#contact h2 {
+	color:#fff;
+}
+
+#contact h3 {
+	color:#fff;
+}
+
+#design img {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.blog-content {
+	text-align: left;
+	margin: 0 auto;
+	width: 65%;
+}
+
+.blog-content p {
+	margin: 0 0 1em 0;
+}
 
 .icon:hover {
 	background-color: #fff;
@@ -69,6 +95,25 @@ ul.icons {
 	margin:0;
 }
 
+
+ul.airbnb-icons {
+	list-style: none;
+	margin-top:40px;
+}
+
+ul.airbnb-icons li {
+	display: inline-block;
+	padding: 0 1.25em 0 0;
+}
+
+ul.airbnb-icons .fa:hover {
+	color:#fd5c63;
+}
+
+
+p.airbnb-icon-text {
+	font-size:45px;
+}
 
 #writing h2 {
 	color:#1abc9c;
@@ -306,6 +351,10 @@ img.prof-image:hover {
 
 		.container {
 			width: 100% !important;
+		}
+
+		.blog-content {
+			width: 100%;
 		}
 
 	}
@@ -2559,6 +2608,7 @@ img.prof-image:hover {
 					margin: 0;
 					text-align: center;
 					width: 8em;
+					cursor: pointer;
 				}
 
 					ul.major-icons li .icon:before {

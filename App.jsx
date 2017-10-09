@@ -1,26 +1,18 @@
 // App component - represents the whole app
+
 App = React.createClass({
-    
-    getInitialState: function(){
-        return { focused: 0 };
-    },
-
-    clicked: (index) => {
-        this.setState({focused: index});
-    },
-
 
     render() {
       return (
+        <div>
+        <div class="app-root">
 
-	      <div>
-	      	<Landing onFocusChanged={this.clicked} focused={this.state.focused} />
-          <Writing />
-          {/** <Growth /> **/}
-          <MachineLearning />
-          <Algorithms />
+          <div class="container">
+            {this.props.yield}
+          </div>
 
-	      </div>
+        </div>
+        </div>
 
       );
     }
