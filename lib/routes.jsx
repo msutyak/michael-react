@@ -21,6 +21,14 @@ FlowRouter.route( '/airbnb', {
   }
 });
 
+FlowRouter.route( '/netflix', {
+  name: 'netflix',
+  action() {
+    ReactLayout.render( App, { yield: <Netflix /> } );
+  }
+});
+
+
 
 FlowRouter.route( '/pizza', {
   name: 'pizza',
