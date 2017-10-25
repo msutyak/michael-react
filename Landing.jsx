@@ -127,7 +127,7 @@ Typing = React.createClass({
 
 
 var typedtext = [
-	{id: 'writing', text: 'Writing & Film', link: '#writing'},
+	//{id: 'writing', text: 'Writing & Film', link: '#writing'},
 	{id: 'growth', text: 'Growth Consulting', link: 'https://www.mobilegrowthsage.com'},
 	{id: 'product', text: 'Product & Tech', link: '#ml'},
 ];

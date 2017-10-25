@@ -15,7 +15,7 @@ Main = React.createClass({
 
 	      <div>
 	      	<Landing onFocusChanged={this.clicked} focused={this.state.focused} />
-          <Writing />
+          {/** <Writing /> **/}
           <MachineLearning />
           <Algorithms />
 
