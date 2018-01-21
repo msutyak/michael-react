@@ -14,10 +14,10 @@ FlowRouter.route('/.well-known/acme-challenge/Q94TSNcmMvq5bNiwyYfeCuOtjRTwl9ALNL
 });
 */}
 
-FlowRouter.route( '/airbnb', {
-  name: 'airbnb',
+FlowRouter.route( '/growth', {
+  name: 'growth',
   action() {
-    ReactLayout.render( App, { yield: <Airbnb /> } );
+    ReactLayout.render( App, { yield: <Growth /> } );
   }
 });
 
