@@ -8,95 +8,95 @@ Home = React.createClass({
 
 		return (
 
-			<div id="wrapper" class="is-preload">
+			<div id="wrapper" className="is-preload">
 
-					<section class="intro">
+					<section className="intro">
 						<header>
-							<h1>Paradigm Shift</h1>
-							<p>A free responsive site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> / <a href="https://html5up.net">HTML5 UP</a></p>
-							<ul class="actions">
-								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							<h1>Michael Sutyak</h1>
+							<p>Product and Growth specialist <a href="mailto:msutyak@gmail.com">Consulting or Advising Inquiry</a><br/><a href="https://formatagency.co">Format Agency: Content-as-a-Service SEO</a></p>
+							<ul className="actions">
+								<li><a href="#first" className="arrow scrolly"><span className="label">Next</span></a></li>
 							</ul>
 						</header>
-						<div class="content">
-							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
+						<div className="content">
+							<span className="image fill" data-position="center"><img src="images/hero-image-michael-sutyak.jpg" alt="" /></span>
 						</div>
 					</section>
 
 					<section id="first">
 						<header>
-							<h2>Magna sed nullam nisl adipiscing</h2>
+							<h2>Delivering exceptional Product and Growth work</h2>
 						</header>
-						<div class="content">
-							<p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+						<div className="content">
+							<p><strong>Cutting edge.  Exceptional quality.  Results driven.</strong> I am an experienced product and growth specialist that has worked with some of the brightest names in technology, including Airbnb, Uber and Google.  I've taken those learnings and applied them to companies in several different industries to scale products, deliver exceptional product experiences and battle the <a href="https://andrewchen.co/the-law-of-shitty-clickthroughs/" target="_blank">the law of shitty clickthroughs</a>. </p>
+							<span className="image main"><img src="images/sub-image-michael-sutyak.png" alt="" /></span>
 						</div>
 					</section>
 
 					<section>
 						<header>
-							<h2>Feugiat consequat tempus ultrices</h2>
+							<h2>Available products and services</h2>
 						</header>
-						<div class="content">
-							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
-							<ul class="feature-icons">
-								<li class="icon fa-laptop">Consequat tempus</li>
-								<li class="icon fa-bolt">Etiam adipiscing</li>
-								<li class="icon fa-signal">Libero nullam</li>
-								<li class="icon fa-gear">Blandit condimentum</li>
-								<li class="icon fa-map-marker">Lorem ipsum dolor</li>
-								<li class="icon fa-code">Nibh amet venenatis</li>
+						<div className="content">
+							<p><strong>Specialized solutions</strong> focused on your products and business. I provide a variety of services to help you reach your goals.</p>
+							<ul className="feature-icons">
+								<li className="icon fa-laptop">Product building</li>
+								<li className="icon fa-bolt">Strategic planning</li>
+								<li className="icon fa-signal">User & revenue growth</li>
+								<li className="icon fa-gear">Analytics insights</li>
+								<li className="icon fa-map-marker">Goaling</li>
+								<li className="icon fa-code">Tech recommendations</li>
 							</ul>
-							<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
+							<p>Before diving in I will do a deep analysis of your products and problem set and determine the best course of action.</p>
 						</div>
 					</section>
 
 					<section>
 						<header>
-							<h2>Ultrices erat magna sed condimentum</h2>
+							<h2>Past Projects</h2>
 						</header>
-						<div class="content">
-							<p><strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+						<div className="content">
+							<p><strong>Proven examples</strong> of past work that have led to successes and reached goals.</p>
 
 								<section>
 									<header>
-										<h3>Erat aliquam</h3>
-										<p>Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt  ipsum suspendisse ultrices gravida.</p>
+										<h3>Airbnb Experiences</h3>
+										<p>Focused on incubation categories for the Experiences business unit at Airbnb: Concerts, Adventures, Social Impact, Surfing (WSL).  Building features and running experiments that increased weekly bookings and booking value.</p>
 									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+									<div className="content">
+										<div className="gallery">
+											<a href="images/gallery/fulls/01.jpg" className="landscape"><img src="images/gallery/thumbs/concerts-tile.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/thewav.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/Live-From-New-York-No-Text.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/04.jpg" className="landscape"><img src="images/gallery/thumbs/surf.jpg" alt="" /></a>
 										</div>
 									</div>
 								</section>
 
 								<section>
 									<header>
-										<h3>Nisl consequat</h3>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia ipsum maximus.</p>
+										<h3>Tubi TV</h3>
+										<p>Product lead focused on building out web, mobile and OTT applications, growing out viewer base and driving revenues through growth activity.</p>
 									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+									<div className="content">
+										<div className="gallery">
+											<a href="images/gallery/fulls/05.jpg" className="landscape"><img src="images/gallery/thumbs/tubi-1.png" alt="" /></a>
+											<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/tubi-3.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/tubi-2.jpg" alt="" /></a>
 										</div>
 									</div>
 								</section>
 
 								<section>
 									<header>
-										<h3>Lorem gravida</h3>
-										<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
+										<h3>Crowdsets</h3>
+										<p>Connecting musical artists with their fans, helping to design tours and maximize ticketing revenue.</p>
 									</header>
-									<div class="content">
-										<div class="gallery">
-											<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
+									<div className="content">
+										<div className="gallery">
+											<a href="images/gallery/fulls/08.jpg" className="portrait"><img src="images/gallery/thumbs/crowdsets-2.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/09.jpg" className="portrait"><img src="images/gallery/thumbs/crowdsets-3.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/10.jpg" className="landscape"><img src="images/gallery/thumbs/crowdsets-1.jpg" alt="" /></a>
 										</div>
 									</div>
 								</section>
@@ -106,13 +106,13 @@ Home = React.createClass({
 
 					<section>
 						<header>
-							<h2>Duis sed adpiscing veroeros amet</h2>
+							<h2>Let's work together</h2>
 						</header>
-						<div class="content">
-							<p><strong>Proin tempus feugiat</strong> sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.</p>
-							<ul class="actions">
-								<li><a href="#" class="button primary large">Get Started</a></li>
-								<li><a href="#" class="button large">Learn More</a></li>
+						<div className="content">
+							<p><strong>Let's get started.</strong> Reach out and share your company goals.  I will draw up a proposal that is tailored to your needs.</p>
+							<ul className="actions">
+								<li><a href="mailto:msutyak@gmail.com" className="button primary large">Get Started</a></li>
+								<li><a href="#" className="button large">Learn More</a></li>
 							</ul>
 						</div>
 					</section>
@@ -121,55 +121,50 @@ Home = React.createClass({
 						<header>
 							<h2>Get in touch</h2>
 						</header>
-						<div class="content">
-							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
+						<div className="content">
+							<p><strong>Or share your thoughts</strong> with the form below and I'll do my best to get back to you as soon as possible.</p>
 							<form>
-								<div class="fields">
-									<div class="field half">
+								<div className="fields">
+									<div className="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
 									</div>
-									<div class="field half">
+									<div className="field half">
 										<input type="email" name="email" id="email" placeholder="Email" />
 									</div>
-									<div class="field">
+									<div className="field">
 										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
 									</div>
 								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
+								<ul className="actions">
+									<li><input type="submit" value="Send Message" className="button primary" /></li>
 								</ul>
 							</form>
 						</div>
 						<footer>
-							<ul class="items">
+							<ul className="items">
 								<li>
 									<h3>Email</h3>
-									<a href="#">information@untitled.ext</a>
+									<a href="#">msutyak@gmail.com</a>
 								</li>
 								<li>
-									<h3>Phone</h3>
-									<a href="#">(000) 000-0000</a>
-								</li>
-								<li>
-									<h3>Address</h3>
-									<span>1234 Somewhere Road, Nashville, TN 00000</span>
+									<h3>Location</h3>
+									<span>San Francisco</span>
 								</li>
 								<li>
 									<h3>Elsewhere</h3>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon fa-codepen"><span class="label">Codepen</span></a></li>
+									<ul className="icons">
+										<li><a href="https://twitter.com/msutyak" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+										<li><a href="https://facebook.com/michael.sutyak" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+										<li><a href="https://instagram.com/msutyak" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+										<li><a href="https://linkedin.com/in/michaelsutyak" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/msutyak" className="icon fa-github"><span className="label">GitHub</span></a></li>
 									</ul>
 								</li>
 							</ul>
 						</footer>
 					</section>
 
-					<div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+					<div className="copyright">&copy; michaelsutyak.com All rights reserved. Thanks for visiting my corner of the web.</div>
 
 			</div>
 
